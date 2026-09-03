@@ -7,7 +7,9 @@ class Solution {
             for (int row = 0; row < rows - 1; row++) {
                 if (strs[row].charAt(col) > strs[row + 1].charAt(col)) {
                     count++;
-                    break;
+                    break; 
+
+                      
                 }
             }
         }
